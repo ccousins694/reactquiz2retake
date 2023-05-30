@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <br></br>
-      {/* <NumberBuilder /> */}
+      <NumberBuilder />
       <br></br>
       <br></br>
       <br></br>
