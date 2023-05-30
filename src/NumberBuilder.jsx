@@ -6,11 +6,13 @@ export const NumberBuilder = () => {
 
     const addNumberClick = () => {
         setNumString(`${numString} ${++counter}`);
+        
         setCounter(counter);
     }
 
     const resetClick = () => {
         setNumString('');
+        setCounter(0);
     }
 
     return (
@@ -19,7 +21,7 @@ export const NumberBuilder = () => {
             <button onClick={resetClick}>Reset</button>
             <br></br>
             Numbers: 
-            <span id="stringOfNumbers">{numString}</span>
+            <span id="main-text">{numString}</span>
         </>
     )
 }
