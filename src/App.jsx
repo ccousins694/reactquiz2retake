@@ -1,11 +1,12 @@
 import { NumberBuilder } from "./NumberBuilder";
 import { AddCalculator } from "./AddCalculator";
+import './App.css';
 
 const App = () => {
   return (
     <div>
       <br></br>
-      <NumberBuilder />
+      {/* <NumberBuilder /> */}
       <br></br>
       <br></br>
       <br></br>
