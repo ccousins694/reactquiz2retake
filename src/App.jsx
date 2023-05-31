@@ -1,22 +1,26 @@
-import { NumberBuilder } from "./NumberBuilder";
-import { AddCalculator } from "./AddCalculator";
-import './App.css';
+import { UpDownCounter } from './UpDownCounter';
+import { Buttons } from './Buttons';
 
 const App = () => {
   return (
     <div>
       <br></br>
-      <NumberBuilder />
+      Up Down Counter:
+      <br></br>
+      <UpDownCounter />
       <br></br>
       <br></br>
       <br></br>
-      ------------------------------------
       <br></br>
-      <AddCalculator />
+      <br></br>
+      <br></br>
+      ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      <br></br>
+      Buttons:
+      <br></br>
+      <Buttons />
     </div>
   );
 }
 
 export default App;
-// When working on NumberBuilder, comment line 14.
-// When working on AddCalculator, comment line 8.
